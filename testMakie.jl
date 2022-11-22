@@ -1,8 +1,14 @@
 # using GLMakie 
 # GLMakie.activate!()
 
-# a meaningless comment
 using CairoMakie 
 CairoMakie.activate!()
 
-fig = scatterlines([1,2,3],[4,5,6])
+lines(1:10, (1:10) .^ 2; label="x²", linewidth=2, linestyle=nothing,
+    figure=(; figure_padding=5, resolution=(600, 400), font="sans",
+        backgroundcolor=:grey90, fontsize=16),
+    axis=(; xlabel="x", title="title", xgridstyle=:dash,
+        ygridstyle=:dash))
+scatterlines!(1:10, (10:-1:1) .^ 2; label="Reverse(x)²")
+axislegend("legend"; position=:ct)
+current_figure()
