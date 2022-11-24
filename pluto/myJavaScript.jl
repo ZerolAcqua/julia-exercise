@@ -1098,7 +1098,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.8.3"
 manifest_format = "2.0"
-project_hash = "44b10d4cebbfd7b6dfedba43749c15eb0106d3f7"
+project_hash = "2c0647ced0fa619ad67726a2f8a1a3b60ebfdac0"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
