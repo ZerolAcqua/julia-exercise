@@ -16,7 +16,6 @@ end
 
 # ╔═╡ 405a4f82-8116-11eb-1b35-2563b06b02a7
 begin
-	import GR
 	using ImageMagick
 	using Colors, ColorVectorSpace, ImageShow, FileIO, ImageIO
 	using ImageFiltering
@@ -560,7 +559,6 @@ PLUTO_PROJECT_TOML_CONTENTS = """
 ColorVectorSpace = "c3611d14-8923-5661-9e6a-0046d554d3a4"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
 ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
@@ -574,7 +572,6 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 ColorVectorSpace = "~0.9.8"
 Colors = "~0.12.8"
 FileIO = "~1.14.0"
-GR = "~0.64.4"
 ImageFiltering = "~0.7.1"
 ImageIO = "~0.6.2"
 ImageMagick = "~1.2.2"

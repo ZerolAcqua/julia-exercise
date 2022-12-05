@@ -16,7 +16,7 @@ end
 
 # ╔═╡ 71b53b98-8038-11eb-0ea5-d953294e9f35
 begin
-	import ImageIO, GR
+	import ImageIO
 	using PlutoUI,Plots, Colors, Images
 end
 
@@ -314,7 +314,6 @@ end
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
 ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
@@ -322,7 +321,6 @@ PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
 Colors = "~0.12.8"
-GR = "~0.71.1"
 ImageIO = "~0.6.6"
 Images = "~0.25.2"
 Plots = "~1.36.6"
@@ -335,7 +333,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.8.3"
 manifest_format = "2.0"
-project_hash = "78d166f975525c236672c1e9d11e5d01672eaa03"
+project_hash = "96dcd3192ffaf868b76fc23aa085a1ce11ee98b6"
 
 [[deps.AbstractFFTs]]
 deps = ["ChainRulesCore", "LinearAlgebra"]
@@ -1764,8 +1762,8 @@ version = "1.4.1+0"
 # ╟─938107f0-80ee-11eb-18cf-775802c43c2f
 # ╟─eb043a90-8102-11eb-3b78-d590a23c83f4
 # ╟─5994117c-8102-11eb-1b05-671b7cf87a7e
-# ╟─b4558306-804a-11eb-2719-5fd37c6fa281
-# ╟─bc631086-804a-11eb-216e-c955e2115f55
+# ╠═b4558306-804a-11eb-2719-5fd37c6fa281
+# ╠═bc631086-804a-11eb-216e-c955e2115f55
 # ╟─d1c851ee-80d5-11eb-1ce4-357dfb1e638e
 # ╟─7191b674-80dc-11eb-24b3-518de83f465a
 # ╟─5dd22d0e-80d6-11eb-0541-d77668309f6c
@@ -1777,7 +1775,7 @@ version = "1.4.1+0"
 # ╟─37ebfa3e-80e5-11eb-166c-4ff3471ab12d
 # ╟─84bb1f5c-80e5-11eb-0e55-83068948870c
 # ╟─ee2d787c-80e5-11eb-1930-0fcbe253643f
-# ╟─e5367534-80e5-11eb-341d-7b3e6ca4f111
+# ╠═e5367534-80e5-11eb-341d-7b3e6ca4f111
 # ╟─4d81a6f4-8104-11eb-1f06-5bb7a56c8406
 # ╟─d9265982-80ed-11eb-3a5f-27712a23506b
 # ╟─ba4acb08-8104-11eb-1771-15bc5d8076fd
